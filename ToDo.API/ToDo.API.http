@@ -1,0 +1,15 @@
+﻿@ToDo.API_HostAddress = https://localhost:7273
+
+@id=0
+PUT {{ToDo.API_HostAddress}}/api/todo/{{id}}
+Content-Type: application/json
+
+{
+  //TodoDto
+}
+
+###
+
+GET {{ToDo.API_HostAddress}}/api/todo/{{id}}
+
+###
